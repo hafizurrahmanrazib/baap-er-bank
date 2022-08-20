@@ -9,7 +9,7 @@ document.getElementById('btn-deposit').addEventListener('click', function () {
     // Step-07:Clear the deposit field
     depositFiled.value = '';
 
-    if (isNaN(newDepositAmount) || newDepositAmount!=='number') {
+    if (isNaN(newDepositAmount) || newDepositAmount !== 'number') {
         alert('Please Provide a Valid Number');
         return;
     }
