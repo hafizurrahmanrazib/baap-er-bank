@@ -25,7 +25,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
     // Step-07:Clear the deposit field
     withdrawField.value = '';
 
-    if (isNaN(newWithdrawAmount) || newWithdrawAmount !== 'number') {
+    if (isNaN(newWithdrawAmount)) {
         alert('Please Provide a Valid Number');
         return;
     }
