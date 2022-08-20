@@ -14,9 +14,9 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     //Danger: Don't check or verify email and password on the client side
     // Step-4:Verify Email And Password and check whether valid user or not
     if (email === 'sontan@baap.com' && password === 'secret') {
-        console.log('valid user');
+        window.location.href = 'bank.html';
     }
     else {
-        console.log('Invalid User');
+        alert('You Type a Wrong User Name Or Password. Please Check Out Again Your User Name Or Password And Correct It');
     }
 })
